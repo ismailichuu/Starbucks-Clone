@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #fff;
+}
+
+.complete-nav{
+    box-shadow:-1px 0px 5px 1px #8080806b;
+    padding-bottom: 15px;
+}
+
+.head-logo{
+    padding: 15px 0px 0px 30px;
+}
+
+.nav-head{
+    font-weight: 700;
+}
+
+.navbar-left ul li a{
+    color: #000;
+}
+
+.navbar-left ul li a:hover{
+    color: #0f853a
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-icon{
+    color: #000;
+}
+
+.find-store{
+    font-weight: 600;
+}
+
+.hover-effect:hover .location-icon,
+.hover-effect:hover .find-store {
+    color: #0f853a;
+}
+
+.navbar-sign{
+    border: 1.7px solid;
+    padding: 3px 14px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: .9em;
+}
+
+.navbar-sign:hover{
+    background: #e2dede;
+}
+
+.navbar-join{
+    font-weight: 600;
+    background: #000;
+    color: #fff;
+    padding: 3px 14px;
+    border-radius: 20px;
+    border: none;
+}
+
+.navbar-join:hover{
+    background: #443a3a;
+}
+
