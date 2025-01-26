@@ -71,3 +71,13 @@ body{
     background: #443a3a;
 }
 
+.navbar-collapse.show .nav-link.nav-head {
+    font-weight: 500;
+}
+
+.navbar-collapse.show .sign{
+    float: right;
+}
+
+
+
