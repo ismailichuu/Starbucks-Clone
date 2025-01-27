@@ -109,9 +109,34 @@ body{
     background: #d6ddc7;
 }
 
+.banner2{
+    background-color: #5f4633;
+    color: #fff;
+}
+
 .add-banner:hover{
     background: #cdcec9;
 }
+
+.join-banner{
+    border: 1.7px solid #fff;
+    padding: 3px 14px;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    background:  #5f4633;
+}
+
+.sections-3{
+    display: flex;
+    justify-content: center;
+    padding: 0 200px;
+}
+
+.join-banner:hover{
+    background:  #413023;
+}
+
 
 /* resposnsive */
 @media screen and (max-width:991px) {
@@ -129,4 +154,34 @@ body{
     font-weight: 400;
     text-transform:capitalize;
     font-size: 20px;
+}
+
+@media (min-width: 992px) {
+    .collapse {
+        display: block !important;
+        visibility: visible;
+    }
+
+    .footer-heading {
+        cursor: default; 
+    }
+
+    .fa-regular.fa-chevron-down{
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .collapse {
+        display: none; 
+    }
+
+    .collapse.show {
+        display: block;
+    }
+
+    .footer-heading {
+        cursor: pointer; 
+    }
 }
